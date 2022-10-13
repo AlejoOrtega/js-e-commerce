@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 32px 0px;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: lightgrey;
+  margin-bottom: 80px;
+}
+
+header div{
+  display: flex;
+  align-items: center;
+}
+
+.menu > li{
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.profile-picture{
+  height: 48px;
+  width: auto;
+  margin-left: 48px;
+}
+
+main{
+  display: flex;
+  gap: 128px;
+  padding: 0px 32px;
+}
+
+.img-display{
+  display: flex;
+  flex-direction: column;
+}
+
+.img-display img{
+  width: 456px;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+
+.img-options{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-options img{
+  width: 90px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.img-options-selected{
+  filter: opacity(0.4);
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
+
+.product-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-information h3{
+  color: orange;
+  margin: 0px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.product-information h1{
+  font-size: 48px;
+  margin: 0px;
+}
+
+.product-information p{
+  line-height: 1.6;
+  font-size: 18px;
+  text-align: justify;
+  width: 80%;
+  color: gray;
+}
+
+.promo-section{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.promo-price{
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 16px;
+}
+
+.promo-discount{
+  width: 48px;
+  text-align: center;
+  background-color: #fff0e3;
+  border-radius: 8px;
+  color: #ff7d1b;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 4px;
+}
+
+.price{
+  text-decoration: line-through;
+  color: grey;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.buy-section{
+  display: flex;
+  gap: 16px;
+}
+
+.buy-adder{
+  width: 156px;
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f8fd;
+  border-radius: 8px;
+}
+
+.buy-adder img{
+  padding: 4px;
+  width: 16px;
+}
+
+.buy-adder span{
+  font-weight: 600;
+}
+
+.add-cart{
+  width: 300px;
+  background-color: #ff7d1b;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.add-cart img{
+  filter: brightness(0) invert(1);
+}
+
+.add-cart span{
+  font-weight: 600;
+  color: white;
+}
